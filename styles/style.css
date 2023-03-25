@@ -1,5 +1,68 @@
-/**{
+*{
     margin: o;
     padding: 0;
     box-sizing: border-box;
-}*/
+}
+body{
+    background-color: aqua;
+    padding: 20px;
+}
+header div{
+    background-color: rgb(188, 50, 140);
+}
+header div img{
+    width: 150px;
+    background-color: black;
+}
+ header div nav ul li a{
+    text-decoration: none;
+}
+/*displey fex */
+header{
+    background-color: coral;
+    padding: 20px;
+    display: flex;
+    /*cambio del eje principal*/
+   /* flex-direction: row;*/
+
+   /*manejo de eje proncipal, o sea el x en un contenedor flex*/
+   justify-content:space-between;
+    /*manejo de eje secundario, o sea el y en un contenedor flex*/
+    align-items: center;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    }
+    header nav ul li{
+        margin: 10px;
+        padding: 10px;
+        background-color: blueviolet;
+   }    
+   nav ul li a{
+    color: gold;
+}
+
+
+
+/*comienzo estilos footer*/
+footer{
+    background-color: goldenrod;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer nav ul{
+    list-style: none;
+}
+
+footer nav ul li{
+   
+    margin: 5px;
+    padding: 10px;
+    background-color:yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
